@@ -1,0 +1,22 @@
+Citizen Forum App
+
+Problem Statement- 
+The process of registering a complaint and action taken on that complain is a time consuming process also the verification of a problem is also a big task for the officials, How can we make this process fast and reliable and also make the process transparent and hassle free? 
+
+Solution-
+We have developed an android app in which user can enter the details about the issue in their locality and make a complaint to the authority with the images from their phone also location where the issue is present. User will get a mail after they register the complaint with authority with the complaint number and they can use that number and check the status of their complaint in the Check status option of the app. The administrator will have the rights to update the status of the complaint.
+The User Interface of the app is simple and easy to navigate so that all type of users can use the application. The complaints received from the same location can be sorted out and analyzed which will help the authorities to act first on the complaint which has been reported by the maximum people for a certain issue in an area.
+
+Steps to test the app-
+1)	Install the app in any android phone with android version greater than 4.4(KitKat) and give permissions for storage and location to the app.
+2)	Launch the app and then after the splash image fill the details of the form and continue.
+3)	Let the app access your location using GPS and Internet.
+4)	After that if you want you can add detailed description of the issue after that your complaint is registered and now you can check your mail for the complaint number.
+5)	Using the complaint number, you have received just check the status of the complaint in the app and see whether it has been resolved or is in progress.
+6)	We have used webhost server for database to store all the details of complaint and we access the information in the status check part of the app.
+
+Future Planning –
+1)	We want to integrate data analysis and find some important details about the data which is collected through these complaints.
+2)	Using the data check which area is getting a maximum complaints about an issue and then it will be easy to verify a issue and process will become fast .
+
+•	Note- Due to different gradle versions on different machines the app sometimes give error during the build process in android studio.
